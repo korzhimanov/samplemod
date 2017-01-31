@@ -12,7 +12,7 @@ with open('LICENSE') as f:
 setup(
     name='sample',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='Sample package for Python projects',
     long_description=readme,
     author='Artem Korzhimanov',
     author_email='korzhimanov.artem@gmail.com',
@@ -20,4 +20,3 @@ setup(
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
-
